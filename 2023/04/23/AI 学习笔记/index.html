@@ -20,23 +20,32 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"kennems.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":"auto","version":"8.17.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
+    <meta name="description" content="AI 学习笔记机器学习简介Different types of Functions Regression : The function outputs a scalar(标量）.  predict the PM2.5  Classification ： Given options (classes), the function outputs the correct one.  Spam filt">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Kennem">
-<meta property="og:url" content="https://kennems.github.io/index.html">
+<meta property="og:url" content="https://kennems.github.io/2023/04/23/AI%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Kennem">
+<meta property="og:description" content="AI 学习笔记机器学习简介Different types of Functions Regression : The function outputs a scalar(标量）.  predict the PM2.5  Classification ： Given options (classes), the function outputs the correct one.  Spam filt">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/kennems/blog-image/20230505112625.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/kennems/blog-image/20230505130637.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/kennems/blog-image/20230505113735.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/kennems/blog-image/20230505114415.png">
+<meta property="article:published_time" content="2023-04-23T15:11:19.817Z">
+<meta property="article:modified_time" content="2023-07-01T14:54:30.297Z">
 <meta property="article:author" content="Kennems">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/kennems/blog-image/20230505112625.png">
 
 
-<link rel="canonical" href="https://kennems.github.io/">
+<link rel="canonical" href="https://kennems.github.io/2023/04/23/AI%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://kennems.github.io/2023/04/23/AI%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/","path":"2023/04/23/AI 学习笔记/","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Kennem</title>
+<title> | Kennem</title>
   
 
 
@@ -66,7 +75,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Kennem</h1>
+      <p class="site-title">Kennem</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -88,7 +97,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -101,6 +110,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#AI-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"><span class="nav-number">1.</span> <span class="nav-text">AI 学习笔记</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B"><span class="nav-number">1.1.</span> <span class="nav-text">机器学习简介</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-Function-with-Unknown-Parameters"><span class="nav-number">1.1.0.1.</span> <span class="nav-text">1.Function with Unknown Parameters.</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-Define-Loss-from-Training-Data"><span class="nav-number">1.1.0.2.</span> <span class="nav-text">2.Define Loss from Training Data</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-Optimization"><span class="nav-number">1.1.0.3.</span> <span class="nav-text">3.Optimization</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Linear-Models"><span class="nav-number">1.1.1.</span> <span class="nav-text">Linear Models</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Optimization-of-New-Model"><span class="nav-number">1.1.2.</span> <span class="nav-text">Optimization of New Model</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sigmoid-gt-ReLU-Rectified-Linear-Unit"><span class="nav-number">1.1.3.</span> <span class="nav-text">Sigmoid -&gt; ReLU (Rectified Linear Unit)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PyTorch"><span class="nav-number">1.2.</span> <span class="nav-text">PyTorch</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Tersors"><span class="nav-number">1.2.1.</span> <span class="nav-text">Tersors</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Creating-Tensors"><span class="nav-number">1.2.1.1.</span> <span class="nav-text">Creating Tensors</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Cradient-Calculation"><span class="nav-number">1.2.1.2.</span> <span class="nav-text">Cradient Calculation</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#torch-nn"><span class="nav-number">1.2.2.</span> <span class="nav-text">torch.nn</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Network-Layers"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">Network Layers</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Build-your-own-neural-network"><span class="nav-number">1.2.2.2.</span> <span class="nav-text">Build your own neural network</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Loss-Functions"><span class="nav-number">1.2.2.3.</span> <span class="nav-text">Loss Functions</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Neural-Network-Training-Setup"><span class="nav-number">1.2.3.</span> <span class="nav-text">Neural Network Training Setup</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Training-Loop"><span class="nav-number">1.2.3.1.</span> <span class="nav-text">Training Loop</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Validation-Loop"><span class="nav-number">1.2.3.2.</span> <span class="nav-text">Validation Loop</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Testing-Loop"><span class="nav-number">1.2.3.3.</span> <span class="nav-text">Testing Loop</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Data-demo1"><span class="nav-number">1.2.4.</span> <span class="nav-text">Data, demo1</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Load-data"><span class="nav-number">1.2.4.1.</span> <span class="nav-text">Load data :</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Dataset"><span class="nav-number">1.2.4.2.</span> <span class="nav-text">Dataset</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Dataloader"><span class="nav-number">1.2.4.3.</span> <span class="nav-text">Dataloader</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Model"><span class="nav-number">1.2.4.4.</span> <span class="nav-text">Model</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Criterion"><span class="nav-number">1.2.4.5.</span> <span class="nav-text">Criterion</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Optimizer"><span class="nav-number">1.2.4.6.</span> <span class="nav-text">Optimizer</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Training-Loop-1"><span class="nav-number">1.2.4.7.</span> <span class="nav-text">Training Loop</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Documentation-and-Common-Errors"><span class="nav-number">1.2.5.</span> <span class="nav-text">Documentation and Common Errors</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Colab"><span class="nav-number">1.2.6.</span> <span class="nav-text">Colab</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#First"><span class="nav-number">2.</span> <span class="nav-text">First</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Neurall-Network"><span class="nav-number">2.0.1.</span> <span class="nav-text">Neurall Network</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Goodness-of-function"><span class="nav-number">2.0.2.</span> <span class="nav-text">Goodness of function</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Backpropagation-Backward-Pass-%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD"><span class="nav-number">2.0.3.</span> <span class="nav-text">Backpropagation - Backward Pass(反向传播)</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Regression"><span class="nav-number">3.</span> <span class="nav-text">Regression</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Step-1-Model"><span class="nav-number">3.1.</span> <span class="nav-text">Step 1 : Model</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Step-2-Goodness-of-Function"><span class="nav-number">3.2.</span> <span class="nav-text">Step 2 : Goodness of Function</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Step-3-%EF%BC%9ABest-Function"><span class="nav-number">3.3.</span> <span class="nav-text">Step 3 ：Best Function</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Regularization"><span class="nav-number">3.4.</span> <span class="nav-text">Regularization</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -130,167 +140,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://kennems.github.io/2023/06/21/Sun/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Kennems">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Kennem">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Kennem">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/06/21/Sun/" class="post-title-link" itemprop="url">Sun</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2023-06-21 17:19:30 / Modified: 17:30:50" itemprop="dateCreated datePublished" datetime="2023-06-21T17:19:30+08:00">2023-06-21</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>-延迟满足，会成功的-</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://kennems.github.io/2023/06/21/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Kennems">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Kennem">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Kennem">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/06/21/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-06-21 15:50:42" itemprop="dateCreated datePublished" datetime="2023-06-21T15:50:42+08:00">2023-06-21</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="https://kennems.github.io/2023/04/23/AI%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -304,13 +164,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Kennem">
+      <meta itemprop="name" content=" | Kennem">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/04/23/AI%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">Untitled</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -339,8 +199,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="AI-学习笔记"><a href="#AI-学习笔记" class="headerlink" title="AI 学习笔记"></a>AI 学习笔记</h1><h2 id="机器学习简介"><a href="#机器学习简介" class="headerlink" title="机器学习简介"></a>机器学习简介</h2><p>Different types of Functions</p>
+    <div class="post-body" itemprop="articleBody"><h1 id="AI-学习笔记"><a href="#AI-学习笔记" class="headerlink" title="AI 学习笔记"></a>AI 学习笔记</h1><h2 id="机器学习简介"><a href="#机器学习简介" class="headerlink" title="机器学习简介"></a>机器学习简介</h2><p>Different types of Functions</p>
 <p><strong>Regression</strong> : The function outputs a scalar(<strong>标量</strong>）.</p>
 <ul>
 <li>predict the PM2.5</li>
@@ -561,7 +420,6 @@
 <li>Overfitting and Regularization</li>
 </ul>
 
-      
     </div>
 
     
@@ -569,11 +427,22 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+            </div>
+            <div class="post-nav-item">
+                <a href="/2023/06/21/hello-world/" rel="next" title="Hello World">
+                  Hello World <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
     </footer>
   </article>
 </div>
+
 
 
 
