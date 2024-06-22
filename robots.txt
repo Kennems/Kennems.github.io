@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://kennems.github.io/sitemap.xml
